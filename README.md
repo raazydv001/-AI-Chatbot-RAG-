@@ -143,46 +143,6 @@ streamlit run app.py
 
 🔄 Run python ingest.py again whenever your documents change.
 
-🧪 Quick Workflow
-🚀 Clone Repository
-        ↓
-📦 Install Dependencies
-        ↓
-🔑 Add OpenRouter API Key
-        ↓
-📚 Add Your .txt Documents
-        ↓
-🗄️ Run python ingest.py
-        ↓
-▶️ Run streamlit run app.py
-        ↓
-💬 Ask Questions
-        ↓
-🤖 Get Grounded Answers
-🔮 Future Improvements
-Improvement	Status
-📄 PDF Support	🔜 Planned
-📝 DOCX Support	🔜 Planned
-✂️ Better Chunking	🔜 Planned
-🔀 Hybrid Search	🔜 Planned
-🎯 Reranking	🔜 Planned
-🏷️ Metadata Filtering	🔜 Planned
-📚 Better Citations	🔜 Planned
-🔐 Authentication	🔜 Planned
-☁️ Cloud Deployment	🔜 Planned
-💾 Persistent Chat History	🔜 Planned
-📊 RAG Evaluation	🔜 Planned
-👨‍💻 Author
-<div align="center">
-Raj Yadav
-
-B.Tech Computer Science Engineering
-
-🤖 AI Engineering · 🧠 Generative AI · 🔎 RAG · ☁️ Cloud Computing · 💻 Software Engineering
-
-<br><br>
-
-⭐ If you found this project useful, consider giving it a star!
 
 </div>
 <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:00F7FF&height=100&section=footer"/>
