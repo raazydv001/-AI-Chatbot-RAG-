@@ -1,0 +1,25 @@
+Tesla, Inc.
+
+Overview
+Tesla, Inc. is an American company known primarily for electric vehicles and energy products. Tesla was incorporated in 2003 by Martin Eberhard and Marc Tarpenning. Elon Musk became an early major investor and chairman and later became CEO.
+
+History
+Tesla initially focused on developing electric vehicles. The Tesla Roadster was introduced as the company's first production vehicle. Tesla later developed the Model S, Model X, Model 3, and Model Y, expanding its electric-vehicle business.
+
+Electric Vehicles
+Tesla develops and sells electric cars and other electric vehicles. Major vehicle lines include Model S, Model 3, Model X, and Model Y. Tesla has also developed the Cybertruck and Semi.
+
+Energy Business
+Tesla's energy business includes battery storage products and solar-energy products. Energy storage products include Powerwall and Megapack.
+
+Charging
+Tesla operates a large Supercharger network for electric-vehicle charging. The charging network is an important part of Tesla's electric-vehicle ecosystem.
+
+Autonomous Driving and AI
+Tesla develops software and computing systems for driver-assistance and automated-driving features. The company uses machine learning, computer vision, neural networks, and specialized computing hardware in its vehicle technology.
+
+Robotics
+Tesla has also worked on humanoid robotics through its Optimus project.
+
+Sources
+- Wikipedia: Tesla, Inc.

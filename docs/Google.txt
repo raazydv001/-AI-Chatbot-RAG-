@@ -1,0 +1,24 @@
+Google (Google LLC)
+
+Overview
+Google LLC is an American multinational technology company and a subsidiary of Alphabet Inc. Google is headquartered in Mountain View, California. It was founded by Larry Page and Sergey Brin in 1998.
+
+History
+Larry Page and Sergey Brin developed an early search engine called BackRub while they were students at Stanford University. Google was incorporated in 1998. The company grew around its search engine and later expanded into many internet, software, hardware, cloud-computing, and artificial-intelligence products. In 2015, Google became the main subsidiary of Alphabet Inc.
+
+Major Products and Services
+Google Search is Google's core web search service. Other major products and services include Gmail, Google Maps, Google Drive, Google Docs, Google Chrome, Android, YouTube, Google Photos, Google Workspace, Google Cloud, Pixel devices, and Gemini.
+
+Business Areas
+Google operates in internet services, online advertising, cloud computing, computer software, consumer hardware, and artificial intelligence. Advertising has historically been a major part of Google's business, while Google Cloud provides cloud infrastructure and platform services.
+
+Artificial Intelligence
+Google has a major AI research and product ecosystem. Google DeepMind works on artificial intelligence research, while Gemini is Google's family of generative AI models and products. Google also develops AI infrastructure and services through Google Cloud.
+
+Parent Company
+Google is a subsidiary of Alphabet Inc. Alphabet was created as a holding company in 2015, with Google as its largest subsidiary.
+
+Sources
+- Wikipedia: Google
+- Wikipedia: History of Google
+- Google: Our Story

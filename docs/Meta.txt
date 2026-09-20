@@ -1,0 +1,22 @@
+Meta Platforms
+
+Overview
+Meta Platforms, Inc., commonly known as Meta, is an American multinational technology company headquartered in Menlo Park, California. It was founded in 2004 and was originally known as TheFacebook, Inc. The company was renamed Facebook, Inc. and later Meta Platforms, Inc. in 2021.
+
+History
+Facebook was founded by Mark Zuckerberg and co-founders Eduardo Saverin, Dustin Moskovitz, Andrew McCollum, and Chris Hughes in 2004. Facebook expanded from a social-networking website into a large technology company. In 2021, the company changed its corporate name to Meta Platforms to reflect a broader focus that included virtual and augmented reality and the metaverse.
+
+Major Products and Services
+Meta operates Facebook, Instagram, WhatsApp, Messenger, and Threads. These platforms provide social networking, messaging, photo and video sharing, communication, and content-distribution services.
+
+Business Model
+Advertising is a major source of Meta's revenue. Meta provides advertising products to businesses across its platforms and uses data and machine-learning systems to help deliver and measure advertisements.
+
+Artificial Intelligence
+Meta develops artificial intelligence technologies for recommendation systems, advertising, content understanding, generative AI, and its Meta AI products. Meta has also released and supported open AI model initiatives such as the Llama family of large language models.
+
+Reality Labs
+Reality Labs is Meta's division focused on virtual and augmented reality technologies. Its products and research include Meta Quest devices and related software and experiences.
+
+Sources
+- Wikipedia: Meta Platforms

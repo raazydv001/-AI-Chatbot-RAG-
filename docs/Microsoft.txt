@@ -1,0 +1,23 @@
+Microsoft Corporation
+
+Overview
+Microsoft Corporation is an American multinational technology company headquartered in Redmond, Washington. It was founded by Bill Gates and Paul Allen on April 4, 1975.
+
+History
+Microsoft originally developed and sold software, including BASIC interpreters for early personal computers. It became highly influential in personal computing through MS-DOS and Microsoft Windows. Microsoft later expanded into productivity software, cloud computing, gaming, hardware, enterprise software, and artificial intelligence.
+
+Major Products and Services
+Microsoft's major products and services include Windows, Microsoft 365, Word, Excel, PowerPoint, Teams, Outlook, OneDrive, Azure, GitHub, LinkedIn, Xbox, Surface, Bing, and Dynamics.
+
+Cloud Computing
+Microsoft Azure is Microsoft's cloud-computing platform. It provides infrastructure, databases, application services, analytics, AI services, storage, networking, security, and other cloud capabilities.
+
+Artificial Intelligence
+Microsoft develops AI products and infrastructure across Microsoft Azure, Microsoft 365, Windows, GitHub, and other services. Microsoft has also partnered with and invested in OpenAI and integrates generative AI capabilities into several products.
+
+Gaming
+Microsoft operates the Xbox gaming business and owns major gaming studios and properties. Its gaming business includes Xbox consoles, Game Pass, cloud gaming, and game development.
+
+Sources
+- Wikipedia: Microsoft
+- Wikipedia: History of Microsoft

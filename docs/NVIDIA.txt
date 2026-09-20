@@ -1,0 +1,24 @@
+NVIDIA Corporation
+
+Overview
+NVIDIA Corporation is an American multinational technology company headquartered in Santa Clara, California. It was founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem.
+
+History
+NVIDIA was founded with a focus on graphics and computing for gaming and multimedia. In 1999, NVIDIA introduced the graphics processing unit (GPU), which became an important technology for computer graphics. NVIDIA later expanded GPUs into scientific computing, data centers, artificial intelligence, robotics, and other fields.
+
+GPUs
+NVIDIA's GPUs are used for gaming, professional visualization, scientific computing, and AI workloads. The GeForce product family is widely associated with gaming and consumer graphics.
+
+CUDA
+NVIDIA introduced CUDA in 2006. CUDA is a parallel-computing platform and programming model that allows developers to use NVIDIA GPUs for general-purpose computing. CUDA became an important part of NVIDIA's software ecosystem for accelerated computing.
+
+Artificial Intelligence
+NVIDIA GPUs are widely used to train and run AI models. NVIDIA provides hardware, networking, software, libraries, and development tools for AI and accelerated computing.
+
+Major Technologies
+NVIDIA technologies and products include GeForce GPUs, data-center GPUs, CUDA, TensorRT, NVIDIA AI Enterprise, DGX systems, DRIVE automotive technologies, Omniverse, and networking technologies.
+
+Sources
+- Wikipedia: NVIDIA
+- NVIDIA: Corporate History
+- NVIDIA: NVIDIA in Brief

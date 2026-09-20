@@ -1,0 +1,50 @@
+raj kumar yadav
++91-8176948526 — Coimbatore, India — rajkumarydvjr656@gmail.com — LinkedIn — GitHub — LeetCode
+Education
+B.E. Computer Science EngineeringExpected 2027
+KPR Institute of Engineering and Technology (KPRIET) CGPA: 8.89
+Higher Secondary (12th Grade) 2022
+Shanti Namuna Secondary School Score: 83.25%
+Technical Skills
+Programming Languages:Python, Java, JavaScript
+AI Engineering:LLMs, LLM APIs, RAG, VectorDB, Prompt Engineering
+Frontend Technologies:React.js, Tailwind CSS, HTML5, CSS3
+Backend Technologies:Node.js, Express.js, REST APIs, JWT, Authentication
+Databases:MongoDB, MySQL
+Cloud & Tools:AWS (EC2, S3, IAM, Lambda, RDS), Git, GitHub, Postman
+CS Fundamentals:Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks
+Experience
+Frontend Engineering InternJune 2025 – Aug 2025
+Goenka Food Pvt. Ltd., Manigram
+–Built reusable, responsive UI components withReact.jsandTailwind CSS, contributing to a scalable and
+maintainable frontend codebase.
+–Connected frontend interfaces to backend services viaREST APIs, enabling real-time data rendering and reliable
+client-server communication.
+–Ensured cross-browser compatibility and consistent UX across devices by applying responsive design best practices
+throughout development.
+Projects
+Car Rental Platform|React.js, Tailwind CSS, Node.js, Express.js, MongoDB —LINK
+–Developed a full-stack car rental booking app with separate user and admin flows, covering car browsing, booking
+creation, and inventory management via a dedicated admin dashboard.
+–Secured all protected routes usingJWT-based authentication with role verification middleware, and designed RESTful
+APIs inExpress.jsfor scalable data operations.
+–IntegratedImageKitfor cloud image uploads and CDN-optimized delivery, reducing load times while maintaining
+high-quality car images across all screen sizes.
+Quick AI – AI Content & Resume SaaS|React.js, Tailwind CSS, Node.js, MongoDB, AI APIs —LINK
+–Built a MERN-stack AI SaaS platform featuring three tools – an article generator, blog title generator, and resume
+analyzer – each powered by externalAI APIswith structured prompt handling.
+–Handled real-time AI content generation with clean data flow between frontend inputs (title, keyword, category, resume
+file) and backend API orchestration, ensuring fast and accurate responses.
+–Enforced subscription-based feature gating and secure access usingClerkauthentication, with protected routing that
+restricts premium tools to verified, paying users only.
+Certifications
+–Microsoft Certified: Azure Fundamentals (AZ-900)|View Credential
+– Microsoft Certified: Azure Data Fundamentals (DP-900)|View Credential
+– Oracle Cloud Infrastructure Foundations Associate|View Credential
+– Oracle Cloud Infrastructure 2025 Generative AI Professional|View Credential
+– Oracle Cloud Infrastructure 2025 Multicloud Architect Professional|View Credential
+– Oracle Cloud Infrastructure 2025 Architect Associate|View Credential
+Achievements
+–Top 5 Finisher– Hostel Hackathon, outperforming 240+ participants across competing teams.
+–Solved300+ DSA problemson LeetCode and GeeksforGeeks, demonstrating strong problem-solving skills and
+consistency in algorithmic thinking.
