@@ -1,173 +1,233 @@
+<!-- ========================= HEADER ========================= -->
+
 <div align="center">
 
-# 🤖 AI RAG Chatbot
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:6366F1,100:8B5CF6&height=180&section=header&text=AI%20RAG%20Chatbot&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 
-### Ask questions. Retrieve knowledge. Get grounded answers.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=23&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Ask+questions.+Retrieve+knowledge.+Get+grounded+answers.;Retrieval+Augmented+Generation;LangChain+%7C+ChromaDB+%7C+OpenRouter;Context-Aware+AI+Conversations" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+RAG+Chatbot;Retrieval+Augmented+Generation;LangChain+%7C+ChromaDB+%7C+OpenRouter;Context-Aware+AI+Conversations" />
+<br>
 
-<p>
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-<img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit">
-<img src="https://img.shields.io/badge/LangChain-RAG-green?style=for-the-badge">
-<img src="https://img.shields.io/badge/ChromaDB-Vector_DB-purple?style=for-the-badge">
-<img src="https://img.shields.io/badge/OpenRouter-LLM-orange?style=for-the-badge">
-</p>
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
+<img src="https://img.shields.io/badge/ChromaDB-Vector_DB-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenRouter-LLM-F97316?style=for-the-badge"/>
+
+<br><br>
+
+<img src="https://img.shields.io/github/stars/raazydv001/-AI-Chatbot-RAG-?style=flat-square&logo=github"/>
+<img src="https://img.shields.io/github/forks/raazydv001/-AI-Chatbot-RAG-?style=flat-square&logo=github"/>
+<img src="https://img.shields.io/github/last-commit/raazydv001/-AI-Chatbot-RAG-?style=flat-square&logo=github"/>
 
 </div>
 
 ---
 
-## 🧠 About
+# 🧠 About
 
-AI RAG Chatbot is a Retrieval-Augmented Generation app that lets you ask questions about your own documents.
+**AI RAG Chatbot** is a Retrieval-Augmented Generation application that allows you to chat with your own documents.
 
-It retrieves relevant information from your documents using **ChromaDB** and sends that context to an **LLM** to generate grounded answers.
+Instead of relying only on an LLM's pretrained knowledge, the application:
 
-### 🔥 RAG Flow
+> 📚 **Retrieves relevant information → gives it to the LLM → generates a grounded answer**
+
+### ⚡ RAG Flow
 
 ```text
-Documents
-   ↓
-Load
-   ↓
-Split into chunks
-   ↓
-Generate embeddings
-   ↓
-Store in ChromaDB
-   ↓
-User Question
-   ↓
-Similarity Search
-   ↓
-Relevant Chunks
-   ↓
-LLM
-   ↓
-Grounded Answer
+             📄 YOUR DOCUMENTS
+                    │
+                    ▼
+             📥 Document Loader
+                    │
+                    ▼
+              ✂️ Text Splitting
+                    │
+                    ▼
+            🧠 Generate Embeddings
+                    │
+                    ▼
+             🗄️ ChromaDB
+                    │
+                    │
+              ❓ User Question
+                    │
+                    ▼
+              🔎 Similarity Search
+                    │
+                    ▼
+             📚 Relevant Chunks
+                    │
+                    ▼
+                 🤖 LLM
+                    │
+                    ▼
+             ✅ Grounded Answer
 
 
+             ✨ Features
+<div align="center">
+🚀 Feature	💡 Description
+🤖 AI Document Q&A	Ask questions about your documents
+📚 RAG	Retrieves relevant knowledge before answering
+🔎 Semantic Search	Finds information based on meaning
+🧠 Conversation History	Supports contextual follow-up questions
+⚡ Streaming	Responses appear progressively
+🗄️ ChromaDB	Local vector database
+🔗 LangChain	RAG pipeline orchestration
+🌐 OpenRouter	LLM and embedding API
+📖 Sources	Displays retrieved source documents
+💬 Streamlit	Interactive chat interface
+🔐 .env	Keeps API keys outside the code
 
-✨ Features
-🤖 AI document Q&A
-📚 Retrieval-Augmented Generation
-🔎 Semantic search
-🧠 Conversation history
-⚡ Streaming responses
-🗄️ ChromaDB vector database
-🔗 LangChain
-🌐 OpenRouter API
-📖 Source display
-💬 Streamlit chat UI
-🔐 Secure .env API key
 🛠️ Tech Stack
+<div align="center">
 Technology	Purpose
-Python	Core language
-Streamlit	UI
-LangChain	RAG
-ChromaDB	Vector database
-OpenAI Embeddings	Embeddings
-OpenRouter	LLM API
-python-dotenv	Environment variables
+🐍 Python	Core programming language
+🎨 Streamlit	Web application UI
+🔗 LangChain	RAG orchestration
+🗄️ ChromaDB	Vector database
+🧠 OpenAI Embeddings	Document embeddings
+🌐 OpenRouter	LLM API
+🔐 python-dotenv	Environment variables
+</div>
+
 🧩 Architecture
-                ┌───────────────┐
-                │   Documents   │
-                └───────┬───────┘
-                        ↓
-                ┌───────────────┐
-                │ Document Load │
-                └───────┬───────┘
-                        ↓
-                ┌───────────────┐
-                │ Text Splitter │
-                └───────┬───────┘
-                        ↓
-                ┌───────────────┐
-                │  Embeddings   │
-                └───────┬───────┘
-                        ↓
-                ┌───────────────┐
-                │   ChromaDB    │
-                └───────┬───────┘
-                        ↓
-                  User Question
-                        ↓
-                ┌───────────────┐
-                │   Retriever   │
-                └───────┬───────┘
-                        ↓
-                Relevant Chunks
-                        ↓
-                ┌───────────────┐
-                │      LLM      │
-                └───────┬───────┘
-                        ↓
-                Grounded Answer
+                         📄 DOCUMENTS
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │ Document Loader │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │  Text Splitter │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │   Embeddings    │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │    ChromaDB     │
+                     │ Vector Database │
+                     └────────┬────────┘
+                              │
+                              │
+                       ❓ USER QUESTION
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │    Retriever    │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     📚 Relevant Chunks
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │       LLM       │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     ✅ GROUNDED ANSWER
 ⚙️ How It Works
+1️⃣ Load Documents
 
-1. Load Documents
-Reads .txt files from the docs/ folder.
+The application reads .txt files from the docs/ folder.
 
-2. Split Documents
-Large documents are divided into smaller chunks.
+docs/
+├── Google.txt
+├── Meta.txt
+├── Microsoft.txt
+├── NVIDIA.txt
+└── Tesla.txt
+2️⃣ Split Documents
 
-3. Generate Embeddings
-Each chunk is converted into a vector representing its meaning.
+Large documents are divided into smaller chunks so relevant information can be retrieved efficiently.
 
-4. Store in ChromaDB
-The vectors are stored locally.
+3️⃣ Generate Embeddings
 
-5. Ask a Question
+Each chunk is converted into a vector representing its semantic meaning.
+
+4️⃣ Store in ChromaDB
+
+The generated vectors are stored locally in ChromaDB.
+
+Document Chunk
+      ↓
+Embedding
+      ↓
+ChromaDB
+5️⃣ User Asks a Question
+
 Example:
 
-What products does Microsoft offer?
+❓ What products does Microsoft offer?
+6️⃣ Retrieve Relevant Information
 
-6. Retrieve Relevant Information
-The question is compared with document embeddings and the most relevant chunks are retrieved.
+The question is converted into an embedding and compared with stored embeddings.
 
-7. Generate Answer
-The retrieved context is sent to the LLM to generate the response.
+The most relevant chunks are retrieved.
+
+7️⃣ Generate Answer
+
+The retrieved context is provided to the LLM together with the question.
+
+The LLM then generates the final grounded response.
 
 🚀 Use This Project With Your Own Documents
 
-You can use this project with your own OpenRouter API key and your own .txt files.
+You can clone this project and use it with:
 
-1️⃣ Clone
+🔑 Your own OpenRouter API key
+📚 Your own .txt documents
+
+1️⃣ Clone the Repository
 git clone https://github.com/raazydv001/-AI-Chatbot-RAG-.git
 cd ./-AI-Chatbot-RAG-
-2️⃣ Create Virtual Environment
-
-Windows
-
+2️⃣ Create a Virtual Environment
+🪟 Windows
 python -m venv venv
 venv\Scripts\activate
-
-macOS / Linux
-
+🐧 macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-Or:
+Or install manually:
 
 pip install streamlit langchain langchain-community langchain-text-splitters langchain-openai langchain-chroma python-dotenv
-🔑 Add Your Own API Key
+🔑 4️⃣ Add Your Own OpenRouter API Key
 
 Create a .env file in the project root:
 
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 
+Example project location:
+
+AI-Chatbot-RAG/
+│
+├── .env
+├── app.py
+├── ingest.py
+├── rag.py
+└── ...
+⚠️ Important
+
 Never upload your real API key to GitHub.
 
-The .gitignore already excludes:
+The project already ignores:
 
 .env
 venv/
 chroma_db/
 __pycache__/
-📚 Add Your Own Documents
+📚 5️⃣ Add Your Own Documents
 
 Put your own .txt files inside docs/.
 
@@ -179,55 +239,68 @@ docs/
 ├── research.txt
 └── notes.txt
 
-Example:
+For example:
 
 docs/python_notes.txt
+
+Content:
+
 Python is a high-level programming language.
 It is widely used for web development,
 automation, data science and artificial intelligence.
 
-Then you can ask:
+Now you can ask:
 
-What is Python used for?
-🗄️ Create the Vector Database
+❓ What is Python used for?
 
-After adding or changing documents:
+The chatbot retrieves the relevant information from your documents.
+
+🗄️ 6️⃣ Create the Vector Database
+
+After adding or changing your documents:
 
 python ingest.py
 
-Pipeline:
+The ingestion pipeline:
 
-Documents
-   ↓
-Load
-   ↓
-Split
-   ↓
-Embeddings
-   ↓
-ChromaDB
+📄 Documents
+     ↓
+📥 Load
+     ↓
+✂️ Split
+     ↓
+🧠 Embeddings
+     ↓
+🗄️ ChromaDB
 
-This creates the local chroma_db/ directory.
+This creates:
+
+chroma_db/
 
 Run python ingest.py again whenever your documents change.
 
-▶️ Start the Chatbot
+▶️ 7️⃣ Start the Chatbot
 streamlit run app.py
 
 Then open the local URL shown by Streamlit.
 
+🎉 Your RAG chatbot is ready!
+
 💬 Example Questions
-Tell me about Google.
 
-What products does Microsoft offer?
+Try questions based on your documents:
 
-What does NVIDIA do?
+❓ Tell me about Google.
 
-Tell me about Tesla.
+❓ What products does Microsoft offer?
 
-Compare Google and Microsoft.
+❓ What does NVIDIA do?
 
-What information is available in my resume?
+❓ Tell me about Tesla.
+
+❓ Compare Google and Microsoft.
+
+❓ What information is available in my resume?
 
 You can also ask follow-up questions because conversation history is maintained during the session.
 
@@ -252,92 +325,89 @@ AI-Chatbot-RAG/
 ├── .gitignore
 ├── .env
 └── README.md
-Files
 
-app.py → Streamlit UI, chat, history, streaming, sources
 
-ingest.py → Loads, splits, embeds and stores documents
-
-rag.py → Retrieval, prompt creation, LLM calls and sources
-
-docs/ → Your knowledge base
-
-chroma_db/ → Local vector database
-
-🔐 Security
-
-Use .env for your API key:
-
-OPENROUTER_API_KEY=your_api_key_here
-
-Never hard-code secrets:
-
-API_KEY = "sk-xxxxxxxxxxxxxxxx"
-
-Never commit API keys to GitHub.
 
 🧪 Quick Workflow
-Clone
- ↓
-Install dependencies
- ↓
-Add OpenRouter API key
- ↓
-Add your .txt documents
- ↓
-Run python ingest.py
- ↓
-Run streamlit run app.py
- ↓
-Ask questions
+        🚀 START
+           │
+           ▼
+     Clone Repository
+           │
+           ▼
+   Install Dependencies
+           │
+           ▼
+ Add OpenRouter API Key
+           │
+           ▼
+ Add Your .txt Documents
+           │
+           ▼
+     python ingest.py
+           │
+           ▼
+  streamlit run app.py
+           │
+           ▼
+    Ask Questions
+           │
+           ▼
+     🤖 AI Answer
+     
 🌟 Why RAG?
 Traditional LLM
-Question
-   ↓
-  LLM
-   ↓
-Answer
+❓ Question
+     ↓
+   🤖 LLM
+     ↓
+✅ Answer
 RAG
-Question
-   ↓
-Retrieve Knowledge
-   ↓
-Relevant Documents
-   ↓
-LLM
-   ↓
-Grounded Answer
+❓ Question
+     ↓
+🔎 Retrieve Knowledge
+     ↓
+📚 Relevant Documents
+     ↓
+🤖 LLM
+     ↓
+✅ Grounded Answer
 
-RAG gives the LLM relevant external information at query time instead of relying only on its pretrained knowledge.
+RAG provides the LLM with relevant external information at query time instead of relying only on pretrained knowledge.
 
 🔮 Future Improvements
- PDF support
- DOCX support
- Better chunking
- Hybrid search
- Reranking
- Metadata filtering
- Better citations
- Authentication
- Cloud deployment
- Persistent chat history
- RAG evaluation
+<div align="center">
+🔧 Improvement	Status
+📄 PDF Support	🔜 Planned
+📝 DOCX Support	🔜 Planned
+✂️ Better Chunking	🔜 Planned
+🔀 Hybrid Search	🔜 Planned
+🎯 Reranking	🔜 Planned
+🏷️ Metadata Filtering	🔜 Planned
+📚 Better Citations	🔜 Planned
+🔐 Authentication	🔜 Planned
+☁️ Cloud Deployment	🔜 Planned
+💾 Persistent Chat History	🔜 Planned
+📊 RAG Evaluation	🔜 Planned
+</div>
 👨‍💻 Author
+<div align="center">
 Raj Yadav
 
 B.Tech Computer Science Engineering
 
-🤖 AI Engineering | 🧠 Generative AI | 🔎 RAG | ☁️ Cloud | 💻 Software Engineering
+<br>
 
-<div align="center">
+🤖 AI Engineering
+🧠 Generative AI
+🔎 RAG Systems
+☁️ Cloud Computing
+💻 Software Engineering
+
+</div>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:00F7FF&height=120&section=footer&animation=fadeIn"/>
 ⭐ If you found this project useful, consider giving it a star!
 
-Built with ❤️ using Python, LangChain, ChromaDB, Streamlit & OpenRouter
+Built with ❤️ using Python · LangChain · ChromaDB · Streamlit · OpenRouter
 
 </div> ```
-
-After saving README.md, run:
-
-git add README.md
-git commit -m "Improve project README"
-git push
