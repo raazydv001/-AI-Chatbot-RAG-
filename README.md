@@ -93,60 +93,50 @@ Technology	Purpose
                          ▼
                   ✅ Grounded Answer
 
-Replace your current section with this:
-
-## 🚀 Run With Your Own Documents
-
-### 1️⃣ Clone & Install
-
-```bash
+Getting Started
+Prerequisites
+Python 3.9+
+An OpenRouter API key
+1. Clone and install
+bash
 git clone https://github.com/raazydv001/-AI-Chatbot-RAG-.git
 cd ./-AI-Chatbot-RAG-
+
 python -m venv venv
-
-Windows
-
-venv\Scripts\activate
-
-macOS / Linux
-
-source venv/bin/activate
-
-Install dependencies:
+source venv/bin/activate      # macOS / Linux
+venv\Scripts\activate         # Windows
 
 pip install -r requirements.txt
-2️⃣ Add Your API Key
+2. Configure environment
 
-Create .env in the project root:
+Create a .env file in the project root:
 
+env
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 
-⚠️ Never commit your real API key to GitHub.
+Never commit your real API key. Make sure .env is listed in .gitignore.
 
-3️⃣ Add Your Documents
+3. Add your documents
 
-Put your own .txt files inside docs/:
+Place your .txt files in the docs/ folder:
 
+text
 docs/
 ├── company.txt
 ├── product.txt
 └── notes.txt
-4️⃣ Build & Run
+4. Build the index and run
+bash
+python ingest.py        # build the vector database
+streamlit run app.py    # start the chatbot
 
-Create the vector database:
+Re-run python ingest.py whenever your documents change.
 
-python ingest.py
-
-Start the chatbot:
-
-streamlit run app.py
-
-🔄 Run python ingest.py again whenever your documents change.
-
-
-</div>
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:6366F1,100:00F7FF&height=100&section=footer"/>
-
-Built with ❤️ using Python · LangChain · ChromaDB · Streamlit · OpenRouter
-
-</div> ```
+Project Structure
+text
+.
+├── app.py              # Streamlit chat interface
+├── ingest.py           # Builds the ChromaDB vector store
+├── docs/               # Your .txt source documents
+├── requirements.txt    # Python dependencies
+└── .env                # API key (not committed)
